@@ -46,15 +46,20 @@ input{
 }
 
 .griglia_lv_one{
-    max-width: 560px;
+    max-width: 500px;
 }
 
 .cella{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border: 2px solid black;
     background-color: violet;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.colorato{
+    background-color: rgb(77, 151, 243);
 }
