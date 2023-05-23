@@ -10,7 +10,7 @@ body{
 }
 
 header , footer{
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,9 +19,10 @@ header , footer{
 
 main{
     background-color: #7fffd4;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 140px);
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 2rem;
 }
 
@@ -34,4 +35,19 @@ ul{
 input{
     padding: 0.5rem 1rem;
     cursor: pointer;
+}
+
+/*Gliglia*/
+
+#griglia_lv_one{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.cella{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    background-color: violet;
 }

@@ -9,10 +9,13 @@
  * 
  */
 
-console.log("Soono qui");
+
 
 const bottone = document.querySelector("#play");
 
 bottone.addEventListener("click", function(){
-    console.log("Sono qui");
+    
+cre
+
+
 });
