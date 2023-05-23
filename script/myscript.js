@@ -21,6 +21,7 @@ bottone.addEventListener("click", function(){
 
     griglia.innerHTML = startGame;
 
+
     for(let i = 0; i < 100; i++){
         let cella = document.createElement("div");
         let numero = i+1;
