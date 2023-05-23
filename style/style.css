@@ -9,7 +9,6 @@ body{
     font-weight: bold;
 }
 
-
 header , footer{
     height: 80px;
     display: flex;
@@ -21,18 +20,18 @@ header , footer{
 main{
     background-color: #7fffd4;
     height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
 }
 
 ul{
     list-style: none;
-}
-
-/*Header*/
-
-header ul {
     display: flex;
+    font-size: 2rem;
 }
 
-li{
-    font-size: 2rem;
+input{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
