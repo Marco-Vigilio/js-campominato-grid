@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+
+header , footer{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+main{
+    background-color: #7fffd4;
+    height: calc(100vh - 160px);
+}
+
+ul{
+    list-style: none;
+}
+
+/*Header*/
+
+header ul {
+    display: flex;
+}
+
+li{
+    font-size: 2rem;
+}
