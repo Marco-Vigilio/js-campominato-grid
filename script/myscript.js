@@ -15,9 +15,9 @@ const bottone = document.querySelector("#play");
 
 bottone.addEventListener("click", function(){
 
-    let startGame = "";
+    let griglia = "";
     
-    let griglia = document.querySelector(".griglia");
+     griglia = document.querySelector(".griglia");
 
     for(let i = 0; i < 64; i++){
             let cella = document.createElement("div");
