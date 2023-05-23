@@ -14,8 +14,19 @@
 const bottone = document.querySelector("#play");
 
 bottone.addEventListener("click", function(){
+
+    let startGame = "";
     
-cre
+    let griglia = document.querySelector(".griglia");
 
+    for(let i = 0; i < 64; i++){
+            let cella = document.createElement("div");
+            let num = cella.append(i+1);
+            cella.classList.add("cella");
+            griglia.appendChild(cella);
+    }
 
+    //griglia.innerHTML = startGame;
 });
+
+

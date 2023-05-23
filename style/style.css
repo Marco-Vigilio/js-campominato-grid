@@ -39,10 +39,14 @@ input{
 
 /*Gliglia*/
 
-#griglia_lv_one{
+.griglia{
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
+    background-color: red;
+}
+
+.griglia_lv_one{
+    max-width: 560px;
 }
 
 .cella{
@@ -50,4 +54,7 @@ input{
     height: 70px;
     border: 2px solid black;
     background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
